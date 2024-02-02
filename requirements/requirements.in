@@ -1,3 +1,2 @@
-celery[redis,django]
+celery[redis]
 celery-redbeat
-django-celery-beat
