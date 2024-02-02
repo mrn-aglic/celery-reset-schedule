@@ -1,0 +1,3 @@
+celery[redis,django]
+celery-redbeat
+django-celery-beat
