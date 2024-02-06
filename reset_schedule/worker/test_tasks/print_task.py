@@ -1,9 +1,11 @@
 from reset_schedule.celeryapp import app
+from reset_schedule.worker.helper_functions import log_schedule_execution
 
 
-@app.task
-def printer(task_arg):
+@app.task(bind=True)
+def printer(self, task_arg):
     print(task_arg)
+    log_schedule_execution(self)
 
 
 @app.task

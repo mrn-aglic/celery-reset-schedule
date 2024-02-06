@@ -3,8 +3,6 @@ from kombu import Exchange, Queue
 broker_url = "redis://redis:6379/0"
 result_backend = "redis://redis:6379/1"
 
-# beat_schedule_filename='shared_beat/beat_schedule'
-
 # beat_scheduler = 'redbeat.RedBeatScheduler'
 
 task_serializer = "json"
@@ -31,7 +29,3 @@ task_routes = {}
 
 task_default_exchange = default_exchange
 task_default_queue = "default"
-
-# Enable events
-worker_send_task_events = True
-task_send_sent_event = True

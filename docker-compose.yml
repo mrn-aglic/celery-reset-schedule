@@ -19,7 +19,6 @@ services:
     image: celery-reschedule
     volumes:
       - .:/app
-      - ./shared-beat:/app/shared_beat
     depends_on:
       - redis
       - scheduler
@@ -34,7 +33,6 @@ services:
     container_name: celery-reschedule-scheduler
     volumes:
       - .:/app
-      - ./shared-beat:/app/shared_beat
     depends_on:
       - redis
     environment:
@@ -60,6 +58,3 @@ services:
 #      - .env
 #    ports:
 #      - '5555:5555'
-
-#volumes:
-#  shared-beat-schedule:

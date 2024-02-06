@@ -2,6 +2,9 @@ ifndef workers
 override workers = 3
 endif
 
+run-scheduler:
+	make down && docker compose up redis scheduler
+
 del-redis:
 	rm redis_data/dump.rdb
 
