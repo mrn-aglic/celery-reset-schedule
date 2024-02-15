@@ -1,0 +1,144 @@
+{
+    "schedule": {
+        "redbeat:print_task": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "print_task",
+            "options": {},
+            "schedule": "<freq: 20.00 seconds>",
+            "task": "reset_schedule.worker.test_tasks.print_task.pipeline"
+        },
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<crontab: 0 * * * * (m/h/dM/MY/d)>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.reschedule_tasks.reschedule.print_schedule of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:07:41.602288"
+}
+{
+    "schedule": {
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<crontab: 0 * * * * (m/h/dM/MY/d)>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.reschedule_tasks.reschedule.remove_periodic_tasks of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:07:41.618172"
+}
+{
+    "schedule": {
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<freq: 5.00 seconds>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.reschedule_tasks.reschedule.schedule_periodic_tasks of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:07:41.633047"
+}
+{
+    "schedule": {
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<freq: 5.00 seconds>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.reschedule_tasks.reschedule.print_schedule of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:07:41.646036"
+}
+{
+    "schedule": {
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<freq: 5.00 seconds>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.test_tasks.simple_pipeline.printer of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:07:56.394385"
+}
+{
+    "schedule": {
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<freq: 5.00 seconds>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.test_tasks.simple_pipeline.printer of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:08:01.397953"
+}
+{
+    "schedule": {
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<freq: 5.00 seconds>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.test_tasks.simple_pipeline.printer of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:08:06.402599"
+}
+{
+    "schedule": {
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<freq: 5.00 seconds>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.test_tasks.simple_pipeline.printer of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:08:11.407355"
+}
+{
+    "schedule": {
+        "redbeat:simple_pipeline": {
+            "args": null,
+            "enabled": true,
+            "kwargs": {},
+            "name": "simple_pipeline",
+            "options": {},
+            "schedule": "<freq: 5.00 seconds>",
+            "task": "reset_schedule.worker.test_tasks.simple_pipeline.pipeline"
+        }
+    },
+    "task": "<@task: reset_schedule.worker.test_tasks.simple_pipeline.printer of reset_schedule at 0x7f6331cb90d0>",
+    "time": "2024-02-15T22:08:16.422847"
+}

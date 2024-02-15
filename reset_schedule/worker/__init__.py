@@ -30,7 +30,6 @@ def setup_periodic_tasks(sender, **kwargs):
             kwargs={
                 "tasks_to_remove": tasks_to_remove,
                 "tasks_to_schedule": tasks_to_schedule,
-                # "tasks_to_reschedule": tasks_to_reschedule
             },
             countdown=5,
         )
